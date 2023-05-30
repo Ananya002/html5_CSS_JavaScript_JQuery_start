@@ -1,16 +1,47 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Github hub</title>
-    </head>
-    <body>
-        <img src="./img/logo.png">
-        <h1>Github H1</h1>
-        <p>
-            Welcome to paragraph<a href="http://github.com">Github.com</a>. <br> <em>dfkdbkd djfkdbfkd</em> jbkdbkdbkdckdckdbckdbck jdbdbckdbc kdbckdbck
-        </p>
-        <p>
-            Welcome to paragraph2. <br> <strong>jkdlnldnld</strong> . dfkdbkd djfkdbfkd jbkdbkdbkdckdckdbckdbck jdbdbckdbc kdbckdbck
-        </p>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>Home</title>
+    <script>
+    function preventBack() {
+      window.history.forward();
+  }
+
+  setTimeout("preventBack()", 0);
+  window.onunload = function() {
+      null
+  };
+</script>
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">IEEE SDMCET</label>
+        <ul>
+          <li><a  href="#">Home</a></li>
+          <li><a href="success.html">Success</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="join.html">Join Us</a></li>
+          <li><a href="contact1.html">Contact</a></li>
+          <li><a href="https://forms.gle/vJGSHEzD4Prx2uEM9">Feedback</a></li>
+        </ul>
+      </nav>
+      <p id="para-el">IEEE and its members inspire a 
+          global community to innovate 
+          for a better tomorrow through highly 
+          cited publications, conferences, 
+          technology standards, and professional 
+          and educational activities. 
+          IEEE is the trusted “voice” for engineering,
+          computing, and technology 
+          information around the globe.</p>
+      
+</body>
 </html>
